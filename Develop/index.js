@@ -116,9 +116,9 @@ ${answers.Contributing}
 ${answers.Tests}
 
 ## Questions
-my Github Username is: ${answers.Username}
-my email address is: ${answers.Email}
-[Gihub Profile](https://github.com/+${answers.Username})
+my Github Username is: ${answers.Username}\
+my email address is: ${answers.Email}\
+[Gihub Profile](https://github.com/${answers.Username})
 
 `
   

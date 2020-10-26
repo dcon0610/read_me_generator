@@ -11,13 +11,13 @@
 - [Questions](#Questions)
   
 ## Description
-This assignment is a readme Generator in markdown format created by node js.
+A Readme Generator 
 
 ## Installation Requirements
-to install: install node (npm install), install inquirer (npm install inquierer, run (node index.js)
+install node (npm install), install inquirer (npm install inquirer), run node index.js
 
 ## Usage Instructions
-to create readmes for github projects
+to create readmes for projects in markdown format for uploading to github
 
 ## License
 apache-2.0
@@ -29,7 +29,5 @@ David
 N.A.
 
 ## Questions
-my Github Username is: dcon
-my email address is: davecon88@gmail.com
-[Gihub Profile](https://github.com/+dcon)
+my Github Username is: dconmy email address is: davecon88@gmail.com[Gihub Profile](https://github.com/dcon)
 
