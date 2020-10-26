@@ -87,6 +87,7 @@ function writeToFile() {
 console.log(license)
     const data=`
 # ${answers.Title}
+
 ${license}
 - [Description](#Description)
 - [Installation Requirements](#Installation-Requirements)
