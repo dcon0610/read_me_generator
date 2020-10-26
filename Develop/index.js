@@ -1,5 +1,6 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
+const { stringify } = require("querystring");
 
 
 // array of questions for user
@@ -66,13 +67,27 @@ inquirer
   .then(answers => {
 
 function writeToFile() {
+  console.log(answers.License)
+  const licenseCategory=[`apache-2.0`,`Creative Commons license`]
+  console.log(licenseCategory[0])
+  license=""
+  if (answers.License==licenseCategory[0]) {
 
+    license = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+  }
 
+  else if (answers.License==licenseCategory[1]){
+
+   license = `[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)]`
+  }
+  else {
+  license="error"
+  }
  
-
+console.log(license)
     const data=`
 # ${answers.Title}
-[![license]('https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE')
+${license}
 - [Description](#Description)
 - [Installation Requirements](#Installation-Requirements)
 - [Usage Instructions](#Usage-Instructions)
