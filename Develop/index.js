@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 
 
 // array of questions for user
-const questions = ["Title", "Description", "Installation requirements", "Usage instructions", "License", "contributing", "Tests", "Questions",
+const questions = ["Title", "Description", "Installation", "Usage", "License", "Contributing", "Tests", "Questions",
 
 ];
 
@@ -65,58 +65,34 @@ function writeToFile() {
 
   console.log(answers.Title)
 
-    const data=`- [Heading](#heading)
-  * [Sub-heading](#sub-heading)
-    + [Sub-sub-heading](#sub-sub-heading)
-- [Heading](#heading-1)
-  * [Sub-heading](#sub-heading-1)
-    + [Sub-sub-heading](#sub-sub-heading-1)
-- [Heading](#heading-2)
-  * [Sub-heading](#sub-heading-2)
-    + [Sub-sub-heading](#sub-sub-heading-2)
+    const data=`
+#ReadMeGenerator - ${answers.Title}
+- [Description](#heading)
+- [Installation Requirements](#heading-1)
+- [Usage Instructions](#heading-2)
+- [License](#heading-3)
+- [Contributing](#heading-4)
+- [Tests](#heading-5)
+- [Questions](#heading-6)
+  
 
 
-# Heading levels
+# Description
+${answers.Description}
 
-> This is a fixture to test heading levels
-
-<!-- toc -->
-
-## Heading
-
-This is an h1 heading
-
-### Sub-heading
-
-This is an h2 heading
-
-#### Sub-sub-heading
-
-This is an h3 heading
-
-## Heading
-
-This is an h1 heading
-
-### Sub-heading
-
-This is an h2 heading
-
-#### Sub-sub-heading
-
-This is an h3 heading
-
-## Heading
-
-This is an h1 heading
-
-### Sub-heading
-
-This is an h2 heading
-
-#### Sub-sub-heading
-
-This is an h3 heading`
+#Installation Requirements
+${answers.Installation}
+# Usage Instructions
+${answers.Usage}
+# License
+${answers.License}
+# Contributing
+${answers.Contributing}
+# Tests
+${answers.Tests}
+# Questions
+${answers.Questions}
+`
   
     
     fs.writeFile('newreadMe.md', data, function (err) {
