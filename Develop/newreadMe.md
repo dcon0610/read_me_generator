@@ -13,22 +13,22 @@
 
 
 ## Description
-This is a node.js file which takes user input and generates a readMe file in markdown format, ready for uploading on github
+Install
 
 ## Installation Requirements
-install NPM
+Install
 
 ## Usage Instructions
-run node index.js
+Test
 
 ## License
 GNU General Public License family
 
 ## Contributing
-David
+TEst
 
 ## Tests
-N.A.
+Test
 
 ## Questions
-for questions, contact me
+Test
