@@ -34,7 +34,8 @@ WHEN I enter my GitHub username\
 THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile\
 WHEN I enter my email address\
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions\
-WHEN I click on the links in the Table of Contents
+WHEN I click on the links in the Table of Contents, it links to the relevant part of the document\
+The new, generated readMe file is called newreadMe.md and is in the Develop folder.
 
 
 ## Notes
