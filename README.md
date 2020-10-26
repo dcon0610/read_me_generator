@@ -7,12 +7,12 @@ This assignment used Node.js and two libraries: inquirer and fs to create an app
 
 ## Installing the Application
 To install:
-> run npm install
-> run npm install inquirer
-> run npm install fs
+> run npm install\
+> run npm install inquirer\
+> run npm install fs\
 > run node index.js
 
-##The Process
+## The Process
 first, the two neccesary packages (inquirer and fs) were imported
 then, an array called questions was initialised.
 then, inquirer was used to prompt each of those questions from each of the elements of the array, and the answers were stored in an answers object. Most were input except for license, where two options were given. Then, the write to file function was initialised and an if statement decided which license to display based on the selection above.
