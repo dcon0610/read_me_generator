@@ -1,5 +1,6 @@
 
-# ReadMe Generator
+# Readme Generator with license
+[![license]('https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE')
 - [Description](#Description)
 - [Installation Requirements](#Installation-Requirements)
 - [Usage Instructions](#Usage-Instructions)
@@ -18,7 +19,7 @@ asdf
 asdf
 
 ## License
-Creative Commons license
+apache-2.0
 
 ## Contributing
 asdf
@@ -27,7 +28,7 @@ asdf
 asdf
 
 ## Questions
-my Github Username is: dcon
-my email address is: davecon88@gmail.com
-[Gihub Profile](https://github.com/+dcon)
+my Github Username is: 
+my email address is: asdf
+[Gihub Profile](https://github.com/+)
 
