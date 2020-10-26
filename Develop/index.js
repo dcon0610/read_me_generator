@@ -73,7 +73,7 @@ function writeToFile() {
     const data=`
 # ${answers.Title}
 - [Description](#Description)
-- [Installation Requirements](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#installation-requirements)
+- [Installation Requirements](#Installation-Requirements)
 - [Usage Instructions](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#usage-instructions)
 - [License](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#license)
 - [Contributing](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#contributing)
