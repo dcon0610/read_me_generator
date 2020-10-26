@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 
 
 // array of questions for user
-const questions = ["Title", "Description", "Installation", "Usage", "License", "Contributing", "Tests", "Questions",
+const questions = ["Title", "Description", "Installation", "Usage", "License", "Contributing", "Tests", "Username", "Email",
 
 ];
 
@@ -35,7 +35,7 @@ inquirer
         name: questions[4],
         message: questions[4],
         choices: [
-            'GNU General Public License family', 'Microsoft Public License'
+            'apache-2.0', 'Creative Commons license'
         ]
       
       },
@@ -55,6 +55,11 @@ inquirer
         message: questions[7],
       
       },
+      {
+        name: `${questions[8]}`,
+        message: questions[8],
+      
+      },
 
 
   ])
@@ -67,13 +72,13 @@ function writeToFile() {
 
     const data=`
 # ${answers.Title}
-- [Description](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#description)
+- [Description](#Description)
 - [Installation Requirements](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#installation-requirements)
 - [Usage Instructions](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#usage-instructions)
 - [License](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#license)
 - [Contributing](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#contributing)
 - [Tests](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#tests)
-- [Questions](#https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#questions)
+- [Questions](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#questions)
   
 ## Description
 ${answers.Description}
@@ -94,7 +99,10 @@ ${answers.Contributing}
 ${answers.Tests}
 
 ## Questions
-${answers.Questions}
+my Github Username is: ${answers.Username}
+my email address is: ${answers.Email}
+[Gihub Profile](https://github.com/+${answers.Username})
+
 `
   
     
