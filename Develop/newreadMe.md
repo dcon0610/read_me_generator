@@ -1,6 +1,6 @@
 # ${answers.Title}
 
-##Table of Contents
+## Table of Contents
 - [Description](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#description)
 - [Installation Requirements](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#installation-requirements)
 - [Usage Instructions](#https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#usage-instructions)
@@ -14,7 +14,7 @@
 ## Description
 ${answers.Description}
 
-##Installation Requirements
+## Installation Requirements
 ${answers.Installation}
 
 ## Usage Instructions
