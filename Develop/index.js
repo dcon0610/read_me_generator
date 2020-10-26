@@ -1,9 +1,9 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-const { listenerCount } = require("process");
+
 
 // array of questions for user
-const questions = ["Title:", "Description:", "Installation requirements:", "Usage instructions:", "License:", "contributing:", "Tests:", "Questions"
+const questions = ["Title", "Description", "Installation requirements", "Usage instructions", "License", "contributing", "Tests", "Questions",
 
 ];
 
@@ -13,6 +13,7 @@ inquirer
     {
       name: questions[0],
       message: questions[0],
+      
     },
     {
       name: questions[1],
@@ -48,28 +49,98 @@ inquirer
         message: questions[6],
       
       },
+    
       {
-        name: questions[7],
+        name: `${questions[7]}`,
         message: questions[7],
       
       },
-    
 
 
   ])
   .then(answers => {
-    console.log(`Answers:`, answers)
-    ;
-  });
+
+function writeToFile() {
+
+
+  console.log(answers.Title)
+
+    const data=`- [Heading](#heading)
+  * [Sub-heading](#sub-heading)
+    + [Sub-sub-heading](#sub-sub-heading)
+- [Heading](#heading-1)
+  * [Sub-heading](#sub-heading-1)
+    + [Sub-sub-heading](#sub-sub-heading-1)
+- [Heading](#heading-2)
+  * [Sub-heading](#sub-heading-2)
+    + [Sub-sub-heading](#sub-sub-heading-2)
+
+
+# Heading levels
+
+> This is a fixture to test heading levels
+
+<!-- toc -->
+
+## Heading
+
+This is an h1 heading
+
+### Sub-heading
+
+This is an h2 heading
+
+#### Sub-sub-heading
+
+This is an h3 heading
+
+## Heading
+
+This is an h1 heading
+
+### Sub-heading
+
+This is an h2 heading
+
+#### Sub-sub-heading
+
+This is an h3 heading
+
+## Heading
+
+This is an h1 heading
+
+### Sub-heading
+
+This is an h2 heading
+
+#### Sub-sub-heading
+
+This is an h3 heading`
+  
+    
+    fs.writeFile('newreadMe.md', data, function (err) {
+
+        if (err) return console.log(err);
+    }
+    
+    
+    
+    )
+   
+}
+   
+
+
+writeToFile()
+
+    
+
+  })
+
+  .catch(function(err){
+    console.log('there was an error '+ err);
+    });
 
 }
-
-console.log(answers)
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-
-// function call to initialize program
-init();
+init()
