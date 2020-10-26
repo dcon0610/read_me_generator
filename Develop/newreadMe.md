@@ -1,6 +1,6 @@
 - [Test](##heading)
 - [headisdfgsdfgng 1](##heading-1)
-- [Heading 2](##heading)
+- [Heading 2](##heading-2)
 
 
 # Heading levels
