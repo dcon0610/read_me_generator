@@ -1,27 +1,34 @@
 
-#ReadMeGenerator - ReadMe Generator
-- [Description](#heading)
-- [Installation Requirements](#heading-1)
-- [Usage Instructions](#heading-2)
-- [License](#heading-3)
-- [Contributing](#heading-4)
-- [Tests](#heading-5)
-- [Questions](#heading-6)
-  
+# ReadMe Generator
+
+## Table of Contents
+- [Description](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#description)
+- [Installation Requirements](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#installation-requirements)
+- [Usage Instructions](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#usage-instructions)
+- [License](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#license)
+- [Contributing](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#contributing)
+- [Tests](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#tests)
+- [Questions](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#questions)
 
 
-# Description
-this is the description
 
-#Installation Requirements
-this is how to install
-# Usage Instructions
-this is how to use
-# License
+## Description
+This is a node.js file which takes user input and generates a readMe file in markdown format, ready for uploading on github
+
+## Installation Requirements
+install NPM
+
+## Usage Instructions
+run node index.js
+
+## License
 GNU General Public License family
-# Contributing
-this is a test
-# Tests
-teasdf
-# Questions
-asdf
+
+## Contributing
+David
+
+## Tests
+N.A.
+
+## Questions
+for questions, contact me

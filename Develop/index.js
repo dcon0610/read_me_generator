@@ -66,31 +66,38 @@ function writeToFile() {
   console.log(answers.Title)
 
     const data=`
-#ReadMeGenerator - ${answers.Title}
-- [Description](#heading)
-- [Installation Requirements](#heading-1)
-- [Usage Instructions](#heading-2)
-- [License](#heading-3)
-- [Contributing](#heading-4)
-- [Tests](#heading-5)
-- [Questions](#heading-6)
-  
+# ${answers.Title}
+
+## Table of Contents
+- [Description](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#description)
+- [Installation Requirements](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#installation-requirements)
+- [Usage Instructions](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#usage-instructions)
+- [License](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#license)
+- [Contributing](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#contributing)
+- [Tests](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#tests)
+- [Questions](https://github.com/dcon0610/read_me_generator/blob/main/Develop/newreadMe.md#questions)
 
 
-# Description
+
+## Description
 ${answers.Description}
 
-#Installation Requirements
+## Installation Requirements
 ${answers.Installation}
-# Usage Instructions
+
+## Usage Instructions
 ${answers.Usage}
-# License
+
+## License
 ${answers.License}
-# Contributing
+
+## Contributing
 ${answers.Contributing}
-# Tests
+
+## Tests
 ${answers.Tests}
-# Questions
+
+## Questions
 ${answers.Questions}
 `
   
