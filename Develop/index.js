@@ -66,7 +66,7 @@ function writeToFile() {
   console.log(answers.Title)
 
     const data=`
-#ReadMeGenerator - ${answers.Title}
+# ${answers.Title}
 - [Description](#heading)
 - [Installation Requirements](#heading-1)
 - [Usage Instructions](#heading-2)
@@ -75,22 +75,25 @@ function writeToFile() {
 - [Tests](#heading-5)
 - [Questions](#heading-6)
   
-
-
-# Description
+## Description
 ${answers.Description}
 
-#Installation Requirements
+## Installation Requirements
 ${answers.Installation}
-# Usage Instructions
+
+## Usage Instructions
 ${answers.Usage}
-# License
+
+## License
 ${answers.License}
-# Contributing
+
+## Contributing
 ${answers.Contributing}
-# Tests
+
+## Tests
 ${answers.Tests}
-# Questions
+
+## Questions
 ${answers.Questions}
 `
   
