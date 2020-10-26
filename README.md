@@ -1,8 +1,9 @@
+```
 # Unit 09 Node.js and ES6+ Homework: Good README Generator
 
 This assignment used Node.js and two libraries: inquirer and fs to create an application which queried a number of questions on the command line and used the answers to those questions to produce a comprehensive and projfessional readMe file detailing the project.
 
-```
+
 
 ## Installing the Application
 To install:
@@ -34,9 +35,8 @@ THEN this is added to the section of the README entitled Questions, with a link 
 WHEN I enter my email address
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-```
+
 
 ## Notes
 There are two screen castify videos. One shows the running of the application, and the other shows the generated readMe (called newreadMe.md) with the working Table of Contents linking to the required parts of the document. I also uploaded my link to my github repository where all of the files are, excluding the files in the gitignore (node modules and .DS_Store.
-
+```
