@@ -1,27 +1,27 @@
-
-#ReadMeGenerator - ReadMe Generator
-- [Description](#heading)
-- [Installation Requirements](#heading-1)
-- [Usage Instructions](#heading-2)
-- [License](#heading-3)
-- [Contributing](#heading-4)
-- [Tests](#heading-5)
-- [Questions](#heading-6)
+# ${answers.Title}
+##Table of Contents
+- [Description](#heading-1)
+- [Installation Requirements](#heading-2)
+- [Usage Instructions](#heading-3)
+- [License](#heading-4)
+- [Contributing](#heading-5)
+- [Tests](#heading-6)
+- [Questions](#heading-7)
   
 
 
-# Description
-this is the description
+## Description
+${answers.Description}
 
-#Installation Requirements
-this is how to install
-# Usage Instructions
-this is how to use
-# License
-GNU General Public License family
-# Contributing
-this is a test
-# Tests
-teasdf
-# Questions
-asdf
+##Installation Requirements
+${answers.Installation}
+## Usage Instructions
+${answers.Usage}
+## License
+${answers.License}
+## Contributing
+${answers.Contributing}
+## Tests
+${answers.Tests}
+## Questions
+${answers.Questions}
