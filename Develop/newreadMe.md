@@ -29,5 +29,7 @@ David
 N.A.
 
 ## Questions
-my Github Username is: dconmy email address is: davecon88@gmail.com[Gihub Profile](https://github.com/dcon)
+my Github Username is: dcon0610
+my email address is: davecon88@gmail.com
+[Gihub Profile](https://github.com/dcon)
 
